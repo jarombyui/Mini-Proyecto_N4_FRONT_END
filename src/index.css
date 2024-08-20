@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.imgMode {
+    content: url('/images/devchallenges.svg');
+}
+
+@media (prefers-color-scheme: dark) {
+    .imgMode {
+        content: url('/images/devchallenges-light.svg');
+    }
+}
